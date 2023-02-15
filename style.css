@@ -2,14 +2,19 @@
     --bg-color: ;
     --primary-color: ;
     --secondary-color: ;
-    --font-family: ;
+
 }
 
+body{
+    background-color: rgb(247, 247, 197) ;
+}
 
-
+h1{
+    color:rgb(32, 65, 32);
+}
 
 ul li::marker {
     content: "\2714\0020  ";
-    color: #4ac1bb;
+    color: rgb(32, 65, 32);
     font-size: 12px;
 }
