@@ -3,7 +3,7 @@
 // todayDisplay = today;
 
 const date = new Date();
-document.getElementById("date").innerHTML = date.toLocaleString();
+document.getElementById("date").innerHTML = date.toLocaleDateString();
 
 
 
