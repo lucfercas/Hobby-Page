@@ -1,20 +1,41 @@
 :root{
-    --bg-color: ;
-    --primary-color: ;
-    --secondary-color: ;
+    --bg-color: rgb(247, 247, 197);
+    --primary-color: rgb(32, 65, 32); 
 
 }
-
 body{
-    background-color: rgb(247, 247, 197) ;
+    background-color: var(--bg-color) ;
 }
 
 h1{
-    color:rgb(32, 65, 32);
+    color: var(--primary-color);
+    font-family: Archivo;
+    font-size: 100px;
+}
+
+p{
+    font-family: Roboto;
+}
+
+a:link{
+    text-decoration: none;
+    color: var(--primary-color)
+    
+}
+
+
+a:hover{
+    text-decoration: none;
+    color: brown
 }
 
 ul li::marker {
     content: "\2714\0020  ";
-    color: rgb(32, 65, 32);
+    color: var(--primary-color);
+    font-family: Roboto;
     font-size: 12px;
+}
+
+#date{
+    text-align: center;
 }
