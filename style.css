@@ -57,20 +57,25 @@ a:hover{
     color: brown
 }
 
-ul{
+ul {
     font-family: 'Roboto', sans-serif;
 }
 
-ul li::marker {
-    content: "\2714\0020  ";
+li {
+    padding-left: 15px; 
+}
+
+li::marker {
+    content: "\1F331";
     color: rgb(32, 65, 32);
-    font-size: 12px;
+    font-size: 15px;
 }
 
 #credits{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Archivo', sans-serif;
 }
 
 #credits #date {
