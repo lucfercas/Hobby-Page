@@ -10,7 +10,7 @@ body{
 section{
     display: block;
     max-width: 900px;
-    border-radius: 12px 12px 0 0;
+    border-radius: 12px;
     margin: 0 auto;
     padding: 30px;
     border: 2px solid rgb(32, 65, 32);
@@ -23,7 +23,7 @@ img{
 
 h1{
     color: rgb(32, 65, 32);
-    font-family: Archivo;
+    font-family: 'Archivo', sans-serif;
     font-size: 100px;
     text-align: center;
 
@@ -31,27 +31,26 @@ h1{
 
 h2{
     color: rgb(32, 65, 32);
-    font-family: Archivo;
+    font-family: 'Archivo', sans-serif;
 }
 
-p{
-    font-family: Roboto;
+.content{
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .caption{
     font-size: 12px;
-    font-family: Roboto;
     font-style: italic;
     margin-top: 5px;
     text-align: right;
+    font-family: 'Roboto', sans-serif;
 }
 
 a:link{
     text-decoration: none;
-    color: rgb(32, 65, 32);
-    
+    color: rgb(32, 65, 32); 
 }
-
 
 a:hover{
     text-decoration: none;
@@ -59,7 +58,7 @@ a:hover{
 }
 
 ul{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul li::marker {
@@ -68,10 +67,12 @@ ul li::marker {
     font-size: 12px;
 }
 
-/* #date{
-    text-align: center;
-} */
-
-.credits{
+#credits{
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
+
+#credits #date {
+    margin: 10px;
+  }
